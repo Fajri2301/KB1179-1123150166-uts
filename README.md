@@ -16,3 +16,5 @@ NIM: 1123150166
 ### Langkah 5: Membuat halaman Sign In dengan form login (hanya tampilan) dan navigasi ke halaman Sign Up.
 
 ### Langkah 6: Membuat halaman OTP dengan input 6 digit (hanya tampilan) dan tombol Verifikasi.
+
+### Langkah 7: Membuat halaman Home setelah login berhasil (hanya tampilan) dengan tombol keluar.
