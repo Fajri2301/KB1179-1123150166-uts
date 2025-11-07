@@ -1,7 +1,47 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
-class OTPScreen extends StatelessWidget {
+class OTPScreen extends StatefulWidget {
   const OTPScreen({super.key});
+
+  @override
+  State<OTPScreen> createState() => _OTPScreenState();
+}
+
+class _OTPScreenState extends State<OTPScreen> {
+  late Timer _timer;
+  int _start = 30;
+
+  @override
+  void initState() {
+    super.initState();
+    startTimer();
+  }
+
+  void startTimer() {
+    const oneSec = Duration(seconds: 1);
+    _timer = Timer.periodic(
+      oneSec,
+      (Timer timer) {
+        if (_start == 0) {
+          setState(() {
+            timer.cancel();
+          });
+        } else {
+          setState(() {
+            _start--;
+          });
+        }
+      },
+    );
+  }
+
+  @override
+  void dispose() {
+    _timer.cancel();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +74,7 @@ class OTPScreen extends StatelessWidget {
               child: const Text('Verifikasi'),
             ),
             const SizedBox(height: 16.0),
-            const Text('Kirim ulang dalam 00:30'),
+            Text('Kirim ulang dalam 00:$_start'),
           ],
         ),
       ),
