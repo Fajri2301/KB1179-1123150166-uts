@@ -10,3 +10,5 @@ NIM: 1123150166
 ### Langkah 2: Membuat file main.dart dengan konfigurasi Material 3, warna tema teal, dan menghapus debug banner.
 
 ### Langkah 3: Mengimplementasikan Splash Screen multi-halaman dengan gambar PNG, navigasi geser, dan tombol dinamis.
+
+### Langkah 4: Membuat halaman Sign Up dengan form pendaftaran (hanya tampilan) dan tombol “Daftar Sekarang”.
