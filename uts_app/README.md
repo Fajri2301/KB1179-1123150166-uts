@@ -13,3 +13,5 @@ Aplikasi mobile untuk bank digital fiktif bernama Fajri Digital Bank.
 2. Mengubah nama proyek menjadi `fajri_digital_bank`.
 
 3. Membuat struktur direktori untuk `screens`, `widgets`, dan `assets/images`.
+
+4. Mengatur `main.dart` dan tema aplikasi.
