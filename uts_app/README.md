@@ -21,3 +21,5 @@ Aplikasi mobile untuk bank digital fiktif bernama Fajri Digital Bank.
 6. Membuat halaman sign-in dengan form email, password, dan navigasi ke halaman sign-up.
 
 7. Membuat halaman sign-up dengan form validasi untuk nama, email, password, dan nomor telepon.
+
+8. Membuat halaman OTP dengan input field dan countdown timer.
