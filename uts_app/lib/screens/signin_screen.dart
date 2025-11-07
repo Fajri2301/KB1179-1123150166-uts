@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:uts_app/screens/otp_screen.dart';
-import 'package:uts_app/screens/signup_screen.dart';
+import 'package:KB1179_1123150166_UTS/screens/otp_screen.dart';
+import 'package:KB1179_1123150166_UTS/screens/signup_screen.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
