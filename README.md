@@ -8,3 +8,5 @@ NIM: 1123150166
 ### Langkah 1: Membuat proyek Flutter bernama fajri_digital_bank dan menambahkan repository GitHub.
 
 ### Langkah 2: Membuat file main.dart dengan konfigurasi Material 3, warna tema teal, dan menghapus debug banner.
+
+### Langkah 3: Mengimplementasikan Splash Screen multi-halaman dengan gambar PNG, navigasi geser, dan tombol dinamis.
