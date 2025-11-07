@@ -12,3 +12,5 @@ NIM: 1123150166
 ### Langkah 3: Mengimplementasikan Splash Screen multi-halaman dengan gambar PNG, navigasi geser, dan tombol dinamis.
 
 ### Langkah 4: Membuat halaman Sign Up dengan form pendaftaran (hanya tampilan) dan tombol “Daftar Sekarang”.
+
+### Langkah 5: Membuat halaman Sign In dengan form login (hanya tampilan) dan navigasi ke halaman Sign Up.
