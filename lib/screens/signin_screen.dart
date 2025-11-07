@@ -48,6 +48,7 @@ class _SignInScreenState extends State<SignInScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  const SizedBox(height: 100.0), // Added to shift content down
                   const Text(
                     'Selamat Datang Kembali',
                     style: TextStyle(

@@ -27,6 +27,8 @@ NIM: 1123150166
 
 ### Langkah 11: Memperbaiki error 'Unable to load asset' dengan mengaktifkan deklarasi assets di `pubspec.yaml`.
 
+### Langkah 12: Menyesuaikan posisi form login di halaman Sign In agar lebih ke bawah.
+
 ## Hasil Screenshot
 * ![Splash Screen](assets/images/splash.png)
 * ![Sign In](assets/images/signin.png)
