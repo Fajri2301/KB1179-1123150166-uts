@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fajri_digital_bank/screens/signup_screen.dart';
-import 'package:fajri_digital_bank/screens/otp_screen.dart';
+import 'package:fajri_digital_bank/screens/home_screen.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -26,8 +26,7 @@ class _SignInScreenState extends State<SignInScreen> {
       // Since this is for display only, we just navigate
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const OtpScreen()),
-      );
+                  MaterialPageRoute(builder: (context) => const HomeScreen()),      );
     }
   }
 

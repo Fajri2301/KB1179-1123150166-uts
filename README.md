@@ -23,6 +23,8 @@ NIM: 1123150166
 
 ### Langkah 9: Memperbaiki error duplikasi deklarasi fungsi `_startCountdown` di OTP Screen.
 
+### Langkah 10: Menghapus halaman OTP dan menyesuaikan navigasi setelah Sign In langsung ke Home Screen.
+
 ## Hasil Screenshot
 * ![Splash Screen](assets/images/splash.png)
 * ![Sign In](assets/images/signin.png)
