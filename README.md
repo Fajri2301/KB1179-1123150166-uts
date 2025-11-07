@@ -14,3 +14,5 @@ NIM: 1123150166
 ### Langkah 4: Membuat halaman Sign Up dengan form pendaftaran (hanya tampilan) dan tombol “Daftar Sekarang”.
 
 ### Langkah 5: Membuat halaman Sign In dengan form login (hanya tampilan) dan navigasi ke halaman Sign Up.
+
+### Langkah 6: Membuat halaman OTP dengan input 6 digit (hanya tampilan) dan tombol Verifikasi.
