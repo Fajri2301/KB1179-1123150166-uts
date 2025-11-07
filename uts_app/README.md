@@ -15,3 +15,5 @@ Aplikasi mobile untuk bank digital fiktif bernama Fajri Digital Bank.
 3. Membuat struktur direktori untuk `screens`, `widgets`, dan `assets/images`.
 
 4. Mengatur `main.dart` dan tema aplikasi.
+
+5. Membuat splash screen dengan logo, tagline, dan navigasi otomatis.
