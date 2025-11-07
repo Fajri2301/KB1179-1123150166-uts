@@ -25,6 +25,8 @@ NIM: 1123150166
 
 ### Langkah 10: Menghapus halaman OTP dan menyesuaikan navigasi setelah Sign In langsung ke Home Screen.
 
+### Langkah 11: Memperbaiki error 'Unable to load asset' dengan mengaktifkan deklarasi assets di `pubspec.yaml`.
+
 ## Hasil Screenshot
 * ![Splash Screen](assets/images/splash.png)
 * ![Sign In](assets/images/signin.png)

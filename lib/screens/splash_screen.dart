@@ -14,17 +14,17 @@ class _SplashScreenState extends State<SplashScreen> {
 
   final List<Map<String, String>> splashData = [
     {
-      "image": "assets/images/splash_1.png",
+      "image": "assets/images/splash1.png",
       "title": "Selamat Datang di Fajri Digital Bank",
       "subtitle": "Solusi keuangan digital dalam genggaman Anda",
     },
     {
-      "image": "assets/images/splash_2.png",
+      "image": "assets/images/splash2.png",
       "title": "Keamanan Terjamin",
       "subtitle": "Transaksi aman dengan teknologi enkripsi terkini",
     },
     {
-      "image": "assets/images/splash_3.png",
+      "image": "assets/images/splash3.png",
       "title": "Mudah dan Cepat",
       "subtitle": "Kelola keuangan Anda kapan saja, di mana saja",
     },
