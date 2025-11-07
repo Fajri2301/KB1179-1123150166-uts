@@ -30,6 +30,19 @@ NIM: 1123150166
 ### Langkah 12: Menyesuaikan posisi form login di halaman Sign In agar lebih ke bawah.
 
 ## Hasil Screenshot
-* ![Splash Screen](assets/images/splash.png)
-* ![Sign In](assets/images/signin.png)
+* ![Splash Screen 1](assets/images/ss-splash1.png)
+* ![Splash Screen 2](assets/images/ss-splash2.png)
+* ![Splash Screen 3](assets/images/ss-splash3.png)
+* ![Sign In](assets/images/login.png)
+* ![Sign Up](assets/images/daftar.png)
 * ![Home](assets/images/home.png)
+
+## Catatan Akhir
+
+Semua langkah pengembangan kode telah selesai. Untuk menyelesaikan proyek ini sepenuhnya, mohon lakukan hal berikut:
+
+1.  **Perbaiki Masalah Lingkungan Flutter:** Pastikan semua masalah yang dilaporkan oleh `flutter doctor` telah diperbaiki (terutama terkait Android dan Xcode toolchain).
+2.  **Sediakan Aset Gambar:** Pastikan file gambar yang diperlukan (`splash_1.png`, `splash_2.png`, `splash_3.png`, dan `background.png`) berada di direktori `assets/images` dengan nama yang benar.
+3.  **Jalankan Aplikasi:** Jalankan aplikasi di emulator atau perangkat fisik Anda.
+4.  **Ambil Tangkapan Layar:** Ambil tangkapan layar dari setiap halaman yang telah diimplementasikan (Splash, Sign Up, Sign In, Home).
+5.  **Perbarui `README.md` dengan Tangkapan Layar Asli:** Ganti placeholder tangkapan layar di bagian "Hasil Screenshot" dengan gambar asli yang telah Anda ambil.
