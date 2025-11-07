@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fajri_digital_bank/screens/signin_screen.dart';
+import 'package:fajri_digital_bank/widgets/custom_button.dart';
+import 'package:fajri_digital_bank/widgets/custom_text_field.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -42,12 +44,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 20.0),
-                    TextFormField(
-                      decoration: const InputDecoration(
-                        labelText: 'Full Name',
-                        border: OutlineInputBorder(),
-                        prefixIcon: Icon(Icons.person),
-                      ),
+                    CustomTextField(
+                      labelText: 'Full Name',
+                      prefixIcon: const Icon(Icons.person),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Please enter your full name';
@@ -56,12 +55,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       },
                     ),
                     const SizedBox(height: 16.0),
-                    TextFormField(
-                      decoration: const InputDecoration(
-                        labelText: 'Email',
-                        border: OutlineInputBorder(),
-                        prefixIcon: Icon(Icons.email),
-                      ),
+                    CustomTextField(
+                      labelText: 'Email',
+                      prefixIcon: const Icon(Icons.email),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Please enter your email';
@@ -70,13 +66,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       },
                     ),
                     const SizedBox(height: 16.0),
-                    TextFormField(
+                    CustomTextField(
+                      labelText: 'Password',
                       obscureText: true,
-                      decoration: const InputDecoration(
-                        labelText: 'Password',
-                        border: OutlineInputBorder(),
-                        prefixIcon: Icon(Icons.lock),
-                      ),
+                      prefixIcon: const Icon(Icons.lock),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Please enter your password';
@@ -85,12 +78,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       },
                     ),
                     const SizedBox(height: 16.0),
-                    TextFormField(
-                      decoration: const InputDecoration(
-                        labelText: 'Phone Number',
-                        border: OutlineInputBorder(),
-                        prefixIcon: Icon(Icons.phone),
-                      ),
+                    CustomTextField(
+                      labelText: 'Phone Number',
+                      prefixIcon: const Icon(Icons.phone),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Please enter your phone number';
@@ -99,16 +89,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       },
                     ),
                     const SizedBox(height: 20.0),
-                    ElevatedButton(
+                    CustomButton(
+                      text: 'Sign Up',
                       onPressed: () {
                         if (_formKey.currentState!.validate()) {
                           // Process data
                         }
                       },
-                      style: ElevatedButton.styleFrom(
-                        minimumSize: const Size(double.infinity, 50.0),
-                      ),
-                      child: const Text('Sign Up'),
                     ),
                     const SizedBox(height: 16.0),
                     Row(

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fajri_digital_bank/screens/signup_screen.dart';
+import 'package:fajri_digital_bank/widgets/custom_button.dart';
+import 'package:fajri_digital_bank/widgets/custom_text_field.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
@@ -33,21 +35,15 @@ class SignInScreen extends StatelessWidget {
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 20.0),
-                  TextFormField(
-                    decoration: const InputDecoration(
-                      labelText: 'Email',
-                      border: OutlineInputBorder(),
-                      prefixIcon: Icon(Icons.email),
-                    ),
+                  const CustomTextField(
+                    labelText: 'Email',
+                    prefixIcon: Icon(Icons.email),
                   ),
                   const SizedBox(height: 16.0),
-                  TextFormField(
+                  const CustomTextField(
+                    labelText: 'Password',
                     obscureText: true,
-                    decoration: const InputDecoration(
-                      labelText: 'Password',
-                      border: OutlineInputBorder(),
-                      prefixIcon: Icon(Icons.lock),
-                    ),
+                    prefixIcon: Icon(Icons.lock),
                   ),
                   const SizedBox(height: 10.0),
                   Align(
@@ -58,12 +54,9 @@ class SignInScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 10.0),
-                  ElevatedButton(
+                  CustomButton(
+                    text: 'Sign In',
                     onPressed: () {},
-                    style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(double.infinity, 50.0),
-                    ),
-                    child: const Text('Sign In'),
                   ),
                   const SizedBox(height: 16.0),
                   Row(

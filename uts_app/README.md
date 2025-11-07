@@ -25,3 +25,5 @@ Aplikasi mobile untuk bank digital fiktif bernama Fajri Digital Bank.
 8. Membuat halaman OTP dengan input field dan countdown timer.
 
 9. Membuat widget kustom untuk tombol dan text field.
+
+10. Merfactor halaman sign-in dan sign-up untuk menggunakan widget kustom.
