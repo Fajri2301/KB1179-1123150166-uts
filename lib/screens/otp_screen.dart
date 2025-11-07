@@ -28,25 +28,44 @@ class _OtpScreenState extends State<OtpScreen> {
     super.dispose();
   }
 
-  void _startCountdown() {
-    _countdown = 30;
-    _canResend = false;
-    Future.periodic(const Duration(seconds: 1), (timer) {
-      if (!mounted) {
-        timer.cancel();
-        return;
-      }
-      setState(() {
-        if (_countdown > 0) {
-          _countdown--;
-        }
-        else {
-          _canResend = true;
+    void _startCountdown() {
+
+      _countdown = 30;
+
+      _canResend = false;
+
+      dart.async.Future.periodic(const Duration(seconds: 1), (timer) {
+
+        if (!mounted) {
+
           timer.cancel();
+
+          return;
+
         }
+
+        setState(() {
+
+          if (_countdown > 0) {
+
+            _countdown--;
+
+          }
+
+          else {
+
+            _canResend = true;
+
+            timer.cancel();
+
+          }
+
+        });
+
       });
-    });
-  }
+
+    }
+
 
   void _verifyOtp() {
     if (_formKey.currentState!.validate()) {

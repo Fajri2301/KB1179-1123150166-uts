@@ -21,6 +21,8 @@ NIM: 1123150166
 
 ### Langkah 8: Menambahkan screenshot hasil aplikasi ke README.
 
+### Langkah 9: Memperbaiki error duplikasi deklarasi fungsi `_startCountdown` di OTP Screen.
+
 ## Hasil Screenshot
 * ![Splash Screen](assets/images/splash.png)
 * ![Sign In](assets/images/signin.png)
