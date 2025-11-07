@@ -7,7 +7,17 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.cyan[50],
       appBar: AppBar(
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.cyan, Colors.teal],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+        ),
         title: const Text('KB1179-1123150166-UTS'),
         bottom: const PreferredSize(
           preferredSize: Size.fromHeight(20.0),
@@ -23,7 +33,8 @@ class SplashScreen extends StatelessWidget {
           children: [
             const CircleAvatar(
               radius: 50.0,
-              child: Icon(Icons.flutter_dash, size: 50.0),
+              backgroundColor: Colors.white,
+              child: Icon(Icons.flutter_dash, size: 50.0, color: Colors.cyan),
             ),
             const SizedBox(height: 20.0),
             const Text(
@@ -44,7 +55,7 @@ class SplashScreen extends StatelessWidget {
                   height: 10.0,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.blue,
+                    color: Colors.cyan,
                   ),
                 ),
                 const SizedBox(width: 10.0),
