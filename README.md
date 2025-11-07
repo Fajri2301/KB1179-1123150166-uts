@@ -18,3 +18,10 @@ NIM: 1123150166
 ### Langkah 6: Membuat halaman OTP dengan input 6 digit (hanya tampilan) dan tombol Verifikasi.
 
 ### Langkah 7: Membuat halaman Home setelah login berhasil (hanya tampilan) dengan tombol keluar.
+
+### Langkah 8: Menambahkan screenshot hasil aplikasi ke README.
+
+## Hasil Screenshot
+* ![Splash Screen](assets/images/splash.png)
+* ![Sign In](assets/images/signin.png)
+* ![Home](assets/images/home.png)

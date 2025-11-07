@@ -31,7 +31,7 @@ class _OtpScreenState extends State<OtpScreen> {
   void _startCountdown() {
     _countdown = 30;
     _canResend = false;
-    dart.async.Future.periodic(const Duration(seconds: 1), (timer) {
+    Future.periodic(const Duration(seconds: 1), (timer) {
       if (!mounted) {
         timer.cancel();
         return;
